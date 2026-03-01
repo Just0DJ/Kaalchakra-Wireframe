@@ -1,173 +1,124 @@
-# Kaalchakra-Wireframe
+# 🕰️ Kaalchakra – Tamil Cultural Calendar (Wireframe)
+
+**Kaalchakra** is a concept-stage Android application designed to help future generations of Tamilians stay connected with traditional cultural practices in a **modern, calm, and non-preachy way**.
+
+This repository documents the **low-fidelity wireframes and product thinking** behind the app.
+
+🔗 Live wireframe (Base44):  
 https://kaalachakra-tamil-calendar.base44.app
 
-Prompt to make the wireframe on: base44.com/
-Design LOW-FIDELITY mobile wireframes for an Android app.
+---
 
-App concept:
-A modern Tamil–Hindu calendar app that shows today’s Tamil date, cultural practices, and festival reminders in a simple, non-preachy way.
+## 🌱 Why This App?
 
-Design constraints:
-- Low-fidelity wireframes only
-- Black & white / grayscale
-- No colors, no branding
-- No real images
-- Simple boxes, lines, placeholders
-- Android Material-style spacing
-- Focus on layout, not visuals
+Many Tamil cultural practices—such as food observances, vrathams, festival awareness, and daily discipline—are slowly being forgotten, especially among younger generations.
 
-Screens to design:
-1. Home / Today Screen
-2. Monthly Calendar Screen
-3. Day Detail Screen
-4. Festival & Events List Screen
-5. Settings Screen
+Existing solutions are often:
+- Cluttered
+- Visually outdated
+- Overly religious or prescriptive
 
-General tone:
-Modern, calm, respectful of tradition, minimal text.
+**Kaalchakra** aims to bridge tradition and modern UX by:
+- Presenting culture as guidance, not rules
+- Using clean Material-style layouts
+- Focusing on clarity and daily relevance
 
-Target users:
-Tamil Hindu families, students, and working professionals.
+---
 
-Output format:
-Mobile wireframe screens with clear labels and annotations.
+## 🎯 Project Status
 
-Home Screen layout:
+- ✅ Product Requirements Defined (PRD)
+- ✅ Low-Fidelity Wireframes (Checkpoint)
+- ⏳ UI refinement (next)
+- ⏳ Android implementation (future)
 
-Top section:
-- English date
-- Tamil date
-- Tamil day name
+This repository represents a **design & planning checkpoint**, not a final product.
 
-Middle section:
-- Card showing today’s festival or event (if any)
-- Text placeholder: “Today’s observance”
+---
 
-Bottom section:
-- 3–4 stacked cards:
-  - Food practice (e.g., Veg only)
-  - Bathing practice
-  - Vratham / pooja
-  - General note
+## 📱 Screens Designed (Low-Fidelity)
 
-Bottom navigation bar:
-- Today
-- Calendar
-- Events
-- Settings
+The wireframes intentionally avoid colors, branding, and visuals to focus only on **layout and information hierarchy**.
 
-Calendar Screen layout:
+### Screens included:
+1. **Home / Today Screen**
+   - English & Tamil date
+   - Daily observances
+   - Daily Tamil Wisdom quote
+2. **Monthly Calendar**
+3. **Day Detail View**
+4. **Festivals & Events List**
+5. **Settings**
 
-Top:
-- Month selector (English + Tamil month)
+---
 
-Middle:
-- Monthly grid calendar
-- Dates with small dot indicators for events
+## 🪔 Daily Tamil Wisdom (Key Feature)
 
-Bottom:
-- Text hint: “Tap a date to view details”
-
-Bottom navigation bar remains visible.
-
-Calendar Screen layout:
-
-Top:
-- Month selector (English + Tamil month)
-
-Middle:
-- Monthly grid calendar
-- Dates with small dot indicators for events
-
-Bottom:
-- Text hint: “Tap a date to view details”
-
-Bottom navigation bar remains visible.
-
-Day Detail Screen:
-
-Top:
-- Selected date (English + Tamil)
-- Day name
-
-Scrollable content:
-- Section: Events / Festivals
-- Section: Do’s & Don’ts
-- Section: Auspicious / Inauspicious notes
-
-Button:
-- “Set Reminder”
-
-Day Detail Screen:
-
-Top:
-- Selected date (English + Tamil)
-- Day name
-
-Scrollable content:
-- Section: Events / Festivals
-- Section: Do’s & Don’ts
-- Section: Auspicious / Inauspicious notes
-
-Button:
-- “Set Reminder”
-
-Festival List Screen:
-
-Top:
-- Search bar
-- Filter icon (Month / Type)
-
-List items:
-- Festival name
-- Tamil date
-- Small label (Vratham / Festival / Observance)
-
-Each item is tappable.
-
-Settings Screen:
-
-Sections:
-- Language (Tamil / English)
-- Notification toggles
-- Practice preferences
-  - Food rules
-  - Bathing rules
-  - Vratham reminders
-- About section
-
-Simplify these wireframes further.
-Remove any unnecessary elements.
-Ensure this feels like a minimal Material Design MVP.
-Update the existing Home / Today Screen wireframe.
-
-Add a new section called “Daily Tamil Wisdom”.
+A dedicated section on the Home screen shows **one short Tamil quote per day**, sourced from:
+- Thirukkural
+- Classical Tamil prose
+- Cultural wisdom
 
 Purpose:
-To gently pass Tamil cultural and ethical wisdom to future generations in a calm, modern, non-preachy way.
+- Gentle cultural continuity
+- Emotional connection
+- No moral enforcement
 
-Placement:
-- Place this section directly BELOW the date information (English + Tamil date)
-- Place it ABOVE the daily observance / practice cards
+Design philosophy:
+> “Culture should be felt daily, not taught loudly.”
 
-Layout:
-- Use a slim card layout
-- Inside the card:
-  - Section title: “Daily Tamil Wisdom”
-  - One short Tamil quote (placeholder text)
-  - Small source label below the quote (e.g., Thirukkural / Tamil Prose)
-  - Optional small icon placeholder for info or share
+---
 
-Design constraints:
-- LOW-FIDELITY wireframe only
-- Grayscale / black & white
-- No colors, no branding
-- No images or illustrations
-- Simple boxes, lines, and text placeholders
-- Material Design spacing and hierarchy
-- Minimal and respectful visual tone
+## 🧠 Design Principles
 
-Behavior notes (annotation only):
-- One quote shown per day
-- Quote rotates daily
-- Optional English meaning available via interaction
+- Low-fidelity first (structure > visuals)
+- Grayscale only
+- Material Design spacing
+- Calm, respectful tone
+- Offline-first mindset
+
+---
+
+## 🛠️ Tooling
+
+- **Wireframes:** Base44 (AI-assisted)
+- **Approach:** Prompt-driven iterative design
+- **Documentation:** Markdown (GitHub-first)
+
+The AI tool was used as a **design accelerator**, guided by explicit constraints and product intent.
+
+---
+
+## 📄 Product Requirements Document (PRD)
+
+The full PRD detailing:
+- Problem statement
+- Target users
+- Features
+- UX philosophy
+- Technical direction
+
+📎 Available here:  
+👉 [`/docs/PRD.md`](./docs/PRD.md)
+
+---
+
+## 🚀 What’s Next
+
+- Refine wireframes into mid-fidelity UI
+- Convert layouts to Jetpack Compose screens
+- Build offline Tamil calendar logic
+- Implement reminders & widgets
+
+---
+
+## 🤝 Contributions & Feedback
+
+This project is in an early exploratory stage.  
+Thoughtful feedback and cultural sensitivity discussions are welcome.
+
+---
+
+## 📜 License
+
+Concept & documentation shared for learning and portfolio purposes.
